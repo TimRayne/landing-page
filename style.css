@@ -12,8 +12,36 @@ body {
 .header{
     display: flex;
     background-color: #1F2937;
+    padding: 10px 150px;
+    justify-content: space-between;
 }
 
+.buttons button{
+    padding: 3px 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.bottom-left{
+    max-width: 600px;
+}
+
+.image{
+    max-width: 500px;
+    max-height: 150px;
+}
+
+.links{
+    display: flex;
+    margin-left: auto;
+}
+
+.logo{
+    font-size: 24px;
+    color:  #F9FAF8;
+}
 
 .quotes{
     display: flex;
@@ -28,9 +56,37 @@ body {
 
 ul{
     list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
+}
+
+button{
+    display: block;
+    margin-top: 10px;
+}
+
+.buttons h2{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.buttons {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header.bottom{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+img{
+    max-width: 400px;
+    max-height: 150px
 }
