@@ -95,13 +95,56 @@ body {
 .signups{
     display: flex;
     flex: 2;
+    justify-content: center;
+    padding: 30px;
+    color: white;
 }
+
+.text1{
+    font-weight: bolder;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.text2{
+    font-weight: 100;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    width: 700px;
+    justify-content: space-around;
+    
+}
+
+.signup button{
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.signup{
+    margin-right: 30px;
+    margin-bottom: 30p;
+}
+
 .footer{
     display: flex;
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
     flex: 1;
+    font-size: smaller;
+    color: white;
 }
 
 ul{
